@@ -1,0 +1,38 @@
+What is a network switch?
+A network switch connects devices in a network to each other, enabling them to talk by exchanging data packets.
+Switches can be hardware devices that manage physical networks or software-based virtual devices.
+
+A network switch operates on the data-link layer, or Layer 2, of the Open Systems Interconnection (OSI) model.
+In a local area network (LAN) using Ethernet, a network switch determines where to send each incoming message frame by looking at the media access control (MAC) address.
+Switches maintain tables that match each MAC address to the port receiving the MAC address.
+
+Why are network switches valuable?
+Switches form the majority of network devices in modern data networks and carry huge amounts of traffic in telecommunications provider networks.
+They offer full-duplex communication, connect network segments, boost network performance and make effective use of available bandwidth.
+
+Network switch vs. router
+Network switches can be easily confused with routers. However, they have different functions and operate on separate layers.
+
+
+Network switch vs. router
+ 
+Here are the main differences between a switch and a router:
+1) A network switch is a Layer 2 device on the OSI model. A router is primarily a Layer 3 device.
+2) A router moves data between two or more computer networks, while a switch facilitates the sharing of resources by connecting multiple devices on a single LAN.
+3) To determine the route and destination of a packet, a router examines the IP addresses of packets. A switch looks at the MAC address of each device to transfer data to the correct destination.
+4) Routers use data packets, whereas switches, which are part of the data-link layer, typically work with data frames.
+5) A switch is less sophisticated than a router because, unlike a router, a switch doesn't use routing algorithms to direct data around large networks.
+6) Routers can work within both wired and Wi-Fi networks, but a switch is restricted to wired network connections.
+7) A router offers network address translation, NetFlow and quality of service, while a switch offers none of these services.
+
+
+Network switch vs. hub
+Here are the main differences between a switch and a hub:
+
+1) While a network switch is a Layer 2 device on the OSI model, a hub is a Layer 1 physical device.
+2) A hub is relatively simple compared to a network switch because, unlike a switch, it doesn't keep track of the addresses of the computers it transfers traffic to.
+3) The goal of a hub is to connect all the nodes in a network, whereas an Ethernet switch connects all the network devices together and transfers data packets between those devices.
+4) Because a hub can't manage data going in and out of it as a network switch can, there are a lot of communication collisions.
+5) Switches prevent collisions by buffering Ethernet frames, but hubs cannot prevent collisions as the devices are connected on a single transmission stream.
+
+
